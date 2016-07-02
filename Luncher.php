@@ -117,10 +117,6 @@ function processMessage($message) {
   // process incoming message
   $message_id = $message['message_id'];
   $chat_id = $message['chat']['id'];
-  $type_chat = $message['chat']['type'];
-  if ($type_chat ~= "private") {
-  ///// nothing 
-  } else {
   if (isset($message['text'])) {
     // incoming text message
     $text = $message['text'];
@@ -377,7 +373,6 @@ else{
 /start
 را بزنید'));
   }
-}
 }
 
 define('WEBHOOK_URL', 'https://test-pvresaan.rhcloud.com//Luncher.php/');
