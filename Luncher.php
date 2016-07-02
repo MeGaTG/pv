@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '254930322:AAFkTiN8POLt4-jXkPiteRDlk_QgUre0o-o');
+define('BOT_TOKEN', '254930322:AAFkTiN8POLt4-jXkPiteRDlk_QgUre');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -221,7 +221,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "⁉️توکن
  https://telegram.me/storebot?start=pvresanbot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot254930322:AAFkTiN8POLt4-jXkPiteRDlk_QgUre0o-o/"; 
+    $bot_url    = "https://api.telegram.org/AAFkTiN8POLt4-jXkPiteRDlk_QgUre0o-o/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -310,7 +310,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "⁉️توکن
 
 ❗️نکته : نیازی نیست ربات را داخل گروهی اد کنید.";
     
-    $bot_url    = "https://api.telegram.org/bot254930322:AAFkTiN8POLt4-jXkPiteRDlk_QgUre0o-o/"; 
+    $bot_url    = "https://api.telegram.org/AAFkTiN8POLt4-jXkPiteRDlk_QgUre0o-o/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
