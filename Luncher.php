@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '267750938:AAHRd6pTOONTS_2Ab184KODkUpRHeZHWTsQ');
+define('BOT_TOKEN', '254930322:AAFkTiN8POLt4-jXkPiteRDlk_QgUre0o-o');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -8,7 +8,7 @@ function apiRequestWebhook($method, $parameters) {
     error_log("Method name must be a string\n");
     return false;
   }
-function
+
   if (!$parameters) {
     $parameters = array();
   } else if (!is_array($parameters)) {
@@ -221,7 +221,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "⁉️توکن
  https://telegram.me/storebot?start=pvresanbot
 .";
     
-    $bot_url    = "https://api.telegram.org/bot267750938:AAHRd6pTOONTS_2Ab184KODkUpRHeZHWTsQ/"; 
+    $bot_url    = "https://api.telegram.org/bot254930322:AAFkTiN8POLt4-jXkPiteRDlk_QgUre0o-o/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -310,7 +310,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "⁉️توکن
 
 ❗️نکته : نیازی نیست ربات را داخل گروهی اد کنید.";
     
-    $bot_url    = "https://api.telegram.org/bot267750938:AAHRd6pTOONTS_2Ab184KODkUpRHeZHWTsQ/"; 
+    $bot_url    = "https://api.telegram.org/bot254930322:AAFkTiN8POLt4-jXkPiteRDlk_QgUre0o-o/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -365,8 +365,7 @@ else{
 /start
 را بزنید'));
     }
-  } 
-  else {
+  } else {
     apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => '🚫دستور نامعتبر است
 
 👈برای ساخت ربات  دستور
@@ -374,6 +373,7 @@ else{
 را بزنید'));
   }
 }
+
 
 define('WEBHOOK_URL', 'https://test-pvresaan.rhcloud.com//Luncher.php/');
 
