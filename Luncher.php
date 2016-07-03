@@ -120,14 +120,19 @@ function processMessage($message) {
   if (isset($message['text'])) {
     // incoming text message
     $text = $message['text'];
-    $admin = 69367395;
+    $admin = 184413821;
     $matches = explode(' ', $text);
     $substr = substr($text, 0,7 );
     if (strpos($text, "/start") === 0) {
-        apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => 'سلام👋
-✅`برای ساخت` *ربات پیام رسان* خود توکن دریافتی از  [Botfather](http://telegram.me/botfather)  را ارسال کنید.
+        apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => '*سلام*👋 
+_کاربر گرامی , به ربات_ PM Resan _خوش آمدید._
 
-⭕️`برای ` *ارتباط با ادمین* `به ربات زیر مراجعه کنید`
+✅ `برای ساخت ربات پیام رسان خود توکن دریافتی از`  [Botfather](http://telegram.me/botfather)  `را ارسال کنید`
+ ⚠️توجه : 
+*There are Not Ads in this BOT* 
+_در این ربات هیچگونه تبلیغاتی وجود ندارد._
+➖➖➖➖➖➖➖➖➖➖
+⭕️`برای ارتباط با ادمین به ربات زیر مراجعه کنید`
 
 [Click](http://telegram.me/PMresan_Admin_bot)
 
@@ -151,13 +156,13 @@ $pmembersid= explode("\n",$txxt);
         $part = explode("\n",$tokens);
        $tcount =  count($part)-1;
 
-      apiRequestWebhook("sendMessage", array('chat_id' => $chat_id,  "text" => "<b>تعداد کل ربات های آنلاین</b>  <code>".$tcount."</code>","parse_mode"=>"HTML"));
+      apiRequestWebhook("sendMessage", array('chat_id' => $chat_id,  "text" => "*تعداد کل ربات های آنلاین*  `".$tcount."` ","parse_mode"=>"MARKDOWN"));
 
         }
-    }else if ($text == "Version") {
+    }else if ($text == "/developer") {
       apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "*PM Resan Saz*
-`ver. 1.1`
-_Developement By_ [Reza Hextor](http://telegram.me/Hextor_Admin)
+_ver 1.1 _
+`Developement By`  [Reza Hextor](http://telegram.me/Hextor_Admin)
 Copy Right 2016©","parse_mode"=>"MARKDOWN"));
     }
     else if ($matches[0] == "/update"&& strpos($matches[1], ":")) {
@@ -375,7 +380,7 @@ else{
 }
 
 
-define('WEBHOOK_URL', 'https://pv.pvresaan.com/secret-path-for-webhooks/');
+define('WEBHOOK_URL', 'https://pv.pvresaan.com/Luncher.php/');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
