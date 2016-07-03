@@ -548,12 +548,6 @@ else if ($chat_id == $admin && $booleans[0] == "true") {
         
       if($chat_id!=$admin){
       apiRequest("sendMessage", array('chat_id' => $chat_id,"text"=>$pmembersiddd[0] ,"parse_mode"=>"HTML"));
-     $post_fields = array('chat_id'   => $chat_id, 
-    'text' => 'برای ساخت ربات خود روی دکمه زیر کلیک کنید'
-    'parse_mode' => 'Markdown'
-    'reply_markup'   => '{"inline_keyboard":[[{"text":"کلیک کنید","url":"telegram.me/PMResansazbot"}]]}'
-    'disable_web_page_preview'=>"true"
-
 
 $txxt = file_get_contents('pmembers.txt');
 $pmembersid= explode("\n",$txxt);
