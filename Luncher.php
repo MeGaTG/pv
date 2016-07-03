@@ -139,6 +139,7 @@ _در این ربات هیچگونه تبلیغاتی وجود ندارد._
 
 🤖 @PMResansazBot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
+
 $txxt = file_get_contents('pmembers.txt');
 $pmembersid= explode("\n",$txxt);
 	if (!in_array($chat_id,$pmembersid)) {
@@ -156,10 +157,10 @@ $pmembersid= explode("\n",$txxt);
         $part = explode("\n",$tokens);
        $tcount =  count($part)-1;
 
-      apiRequestWebhook("sendMessage", array('chat_id' => $chat_id,  "text" => "*تعداد کل ربات های آنلاین*  `".$tcount."` ","parse_mode"=>"MARKDOWN"));
+      apiRequestWebhook("sendMessage", array('chat_id' => $chat_id,  "text" => "تعداد کل ربات های آنلاین  <code>".$tcount."</code>","parse_mode"=>"HTML"));
 
         }
-    }else if ($text == "/developer") {
+        }else if ($text == "/developer") {
       apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "*PM Resan Saz*
 _ver 1.1 _
 `Developement By`  [Reza Hextor](http://telegram.me/Hextor_Admin)
@@ -185,7 +186,7 @@ Copy Right 2016©","parse_mode"=>"MARKDOWN"));
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[1].'$texttwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://php-pvresaan.rhcloud.com/'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://p-pvresaan.rhcloud.com/'.$chat_id.'/pvresan.php');
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🚀 ربات شما با مـوفقیت آپدیت شد ♻️"));
 
 
@@ -193,8 +194,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🚀 ربات 
     }
     else if ($matches[0] != "/update"&& $matches[1]==""&&$chat_id != 184413821) {
       if (strpos($text, ":")) {
-apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "⁉️توکن ارسالی درحال بررسی و تایید میباشد
-🌀چند دقیقه منتظر بمانید..."));
+apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال برسی 🔃"));
     $url = "http://api.telegram.org/bot".$matches[0]."/getme";
     $json = file_get_contents($url);
     $json_data = json_decode($json, true);
@@ -222,7 +222,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "⁉️توکن
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://php-pvresaan.rhcloud.com/'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://p-pvresaan.rhcloud.com/'.$chat_id.'/pvresan.php');
     $unstalled = "✅توکن شما با موفقیت تایید شده و نصب شد
 ✨برای ورود به ربات خود دکمه زیر را لمس کنید(با آخرین نسخه تلگرام)
 
@@ -255,26 +255,24 @@ $output = curl_exec($ch);
       }
       else{
          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "
-🚫خطا :
-👈پیش از این <i>یک</i>ربات به ثبت رسانده اید.
+		 🚫خطا:
+👈پیش از این یک ربات به ثبت رسانده اید.
 
-✅برای ثبت <b>ربات های بیشتر</b> به [ادمین](http://telegram.me/Hextor_Admin)
- مراجعه کرده و و مبلغ <code>2000</code> تومان پرداخت کنید تا صاحب ربات پیام رسان های بیشتر شوید.
-
+✅برای ثبت ربات دیگر به ادمین مراجعه کرده و و مبلغ  2000  تومان پرداخت کنید تا صاحب ربات پیام رسان های بیشتر شوید.
 ✨ادمین :
-[click](http://telegram.me/Hextor_Admin)
+@Hextor_Admin
 
-🌷کانال ما:
-[click](http://telegram.me/Hextor_Ch)","parse_mode"=>"html"));
+🌷کانال ما : 
+@Hextor_Ch)"));
       }
     }
       
     else{
-          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "❌توکن ارسالی نامعتبر است"));
+          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "توکن نا معتبر  ❌"));
     }
 }
 else{
-          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "❌توکن ارسالی نامعتبر است"));
+            apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "توکن نا معتبر  ❌"));
 
 }
 
@@ -283,8 +281,7 @@ else{
         if (strpos($text, ":")) {
           
           
-apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "⁉️توکن ارسالی درحال بررسی و تایید میباشد
-🌀چند دقیقه منتظر بمانید..."));
+apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال برسی 🔃"));
     $url = "http://api.telegram.org/bot".$matches[0]."/getme";
     $json = file_get_contents($url);
     $json_data = json_decode($json, true);
@@ -311,7 +308,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "⁉️توکن
         $phptext = str_replace("**ADMIN**",$matches[1],$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://php-pvresaan.rhcloud.com/'.$id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://p-pvresaan.rhcloud.com/'.$id.'/pvresan.php');
     $unstalled = "✅توکن  شما تایید شد و هم اکنون فعال میباشد.
 👈برای ورود به ربات خود (با آخرین نسخه تلگرام) روی دکمه زیر کلیک کنید.
 
@@ -338,26 +335,25 @@ $output = curl_exec($ch);
   
       }
       else{
-         apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "
-🚫*خطا*:
-👈`پیش از این یک ربات به ثبت رسانده اید.`
+         apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🚫خطا:
+👈پیش از این یک ربات به ثبت رسانده اید.
 
-✅`برای ثبت ربات دیگر به` [ادمین](http://telegram.me/Hextor_Admin)  `مراجعه کرده و و مبلغ` *2000* `تومان پرداخت کنید تا صاحب ربات پیام رسان های بیشتر شوید.`
-✨_ادمین :_
-[click](http://telegram.me/Hextor_Admin)
+✅برای ثبت ربات دیگر به ادمین مراجعه کرده و و مبلغ  2000  تومان پرداخت کنید تا صاحب ربات پیام رسان های بیشتر شوید.
+✨ادمین :
+@Hextor_Admin
 
-🌷_کانال ما : _
-[click](http://telegram.me/Hextor_Ch)","parse_mode"=>"MARKDOWN"));
+🌷کانال ما : 
+@Hextor_Ch)"));
       }
 
     }
     else{
-          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "❌توکن ارسالی نامعتبر است"));
+          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "توکن نا معتبر  ❌"));
 
     }
 }
 else{
-          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "❌توکن ارسالی نامعتبر است"));
+            apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "توکن نا معتبر  ❌"));
 
 }
 
@@ -380,7 +376,7 @@ else{
 }
 
 
-define('WEBHOOK_URL', 'https://php-pvresaan.rhcloud.com/Luncher.php/');
+define('WEBHOOK_URL', 'https://p-pvresaan.rhcloud.com/Luncher.php/');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
