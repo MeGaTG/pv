@@ -115,7 +115,7 @@ function processMessage($message) {
   // process incoming message
   $boolean = file_get_contents('booleans.txt');
   $booleans= explode("\n",$boolean);
-  $admin = **ADMIN**;
+  $admin = 184413821;
   $message_id = $message['message_id'];
   $rpto = $message['reply_to_message']['forward_from']['id'];
   $chat_id = $message['chat']['id'];
@@ -299,7 +299,7 @@ Get Out Of Here Idiot🖕
 			
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام شما به  ".$memcout." مخاطب ارسال شد.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام شما به  ".$memcout." مخاطب ازسال شد.
 .","parse_mode" =>"HTML",'reply_markup' => array(
         'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
         'one_time_keyboard' => true,
@@ -525,7 +525,7 @@ else if ($chat_id == $admin && $booleans[0] == "true") {
 
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام شما به  ".$memcout." مخاطب ازسال شد.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام شما به  ".$memcout." مخاطب ارسال شد.
 .","parse_mode" =>"HTML",'reply_markup' => array(
         'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
         'one_time_keyboard' => true,
@@ -562,7 +562,8 @@ $pmembersid= explode("\n",$txxt);
 
 }
 if($chat_id==$admin){
-  apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'سلام👋
+  apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>
+  'سلام👋
 🌹به بخش مدیریت ربات پیام رسان خود خوش آمدید🌹
 
 ⚠️نکات  لازم :
@@ -586,6 +587,7 @@ if($chat_id==$admin){
     $starttext = str_replace("/setstart","",$text);
             
     file_put_contents('msgs.txt',$starttext."
+.
 -!-@-#-$"."
 ".$pmembersiddd[1]);
 apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"📝پیام خوش آمد گویی به 👇
@@ -603,7 +605,7 @@ apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"📝پیا�
     $starttext = str_replace("/setdone","",$text);
             
     file_put_contents('msgs.txt',$pmembersiddd[0]."
-
+.
 -!-@-#-$"."
 ".$starttext);
 apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"📝پیام پیش فرض شما به 👇
@@ -700,9 +702,8 @@ _تعداد کاربران در_ *لیست سیاه*
 `هرگونه مشکل یا خطا را از طریق ربات زیر برای ما ارسال کنید`
 *Admin PM Resan* : [Click](Http://telegram.me/PMResan_Admin_Bot)
 ➖➖➖➖➖➖
-*Our Channel* : [Join](Http://telegram.me/Hextor_ch).","parse_mode" =>"MARKDOWN",
-
-        'reply_markup' => array(
+*Our Channel* : [Join](Http://telegram.me/Hextor_ch).
+","parse_mode" =>"MARKDOWN",'reply_markup' => array(
         'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
         'one_time_keyboard' => true,
         'selective' => true,
@@ -734,8 +735,10 @@ _تعداد کاربران در_ *لیست سیاه*
         'resize_keyboard' => true)));
     }
     else if ($text == "🔙 Back" && $chat_id==$admin) {
-    		apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'بازگشت به منوی اصلی:'
-, 'reply_markup' => array(
+    		apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'سلام قربان حوش آمدید😉
+برای پاسخ روی پیام مورد نظر ریپلای کنید و متن خود را بنویسید 😎
+برای آشنایی دکمه ی ⚓️ Help️ را بزنید 👌😃
+.', 'reply_markup' => array(
         'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
         'one_time_keyboard' => true,
         'selective' => true,
@@ -796,7 +799,7 @@ _تعداد کاربران در_ *لیست سیاه*
     	if($text != "/ban" && $text != "/unban")
     	{
 	apiRequest("sendMessage", array('chat_id' => $rpto, "text" => $text ,"parse_mode" =>"HTML"));
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "پیام با موفقیت به کاربر ارسال شد✅" ,"parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🗣پیام شما ارسال شد. " ,"parse_mode" =>"HTML"));
     	}
     	else
     	{
