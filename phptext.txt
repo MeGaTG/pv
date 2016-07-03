@@ -189,7 +189,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "❌<b>You Are 
 		$memcout = count($membersidd)-1;
 	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>" 👈پیام شما به  ".$memcout."  کاربر با موفقیت ارسال شد✅.",
 ,"parse_mode" =>"HTML",'reply_markup' => array(
-        'keyboard' => array(array('💠 Help 💠'),array("📢 Send To All 📢",'🔅Settings🔅'),array('❇️ Members ❇️','🚫 Blocked Users 🚫'),array"✴️ Version ✴️"))
+        'keyboard' => array(array('💠 Help 💠'),array('📢 Send To All 📢','❇️ Members ❇️','❌ Blocked Users',"🔅Settings🔅")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -249,7 +249,7 @@ else if ($chat_id == $admin && $booleans[0] == "true") {
 		$memcout = count($membersidd)-1;
 	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>" 👈پیام شما به  ".$memcout."  کاربر با موفقیت ارسال شد✅.",
 ,"parse_mode" =>"HTML",'reply_markup' => array(
-        'keyboard' => array(array('💠 Help 💠'),array("📢 Send To All 📢",'🔅Settings🔅'),array('❇️ Members ❇️','🚫 Blocked Users 🚫'),array"✴️ Version ✴️"))
+        'keyboard' => array(array('💠 Help 💠'),array('📢 Send To All 📢','❇️ Members ❇️','❌ Blocked Users',"🔅Settings🔅")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -301,7 +301,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "❌<b>You Are 
 		$memcout = count($membersidd)-1;
 	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>" 👈پیام شما به  ".$memcout."  کاربر با موفقیت ارسال شد✅.",
 ,"parse_mode" =>"HTML",'reply_markup' => array(
-        'keyboard' => array(array('💠 Help 💠'),array("📢 Send To All 📢",'🔅Settings🔅'),array('❇️ Members ❇️','🚫 Blocked Users 🚫'),array"✴️ Version ✴️"))
+        'keyboard' => array(array('💠 Help 💠'),array('📢 Send To All 📢','❇️ Members ❇️','❌ Blocked Users',"🔅Settings🔅")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -361,7 +361,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "❌<b>You Are 
 		$memcout = count($membersidd)-1;
 	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>" 👈پیام شما به  ".$memcout."  کاربر با موفقیت ارسال شد✅.",
 ,"parse_mode" =>"HTML",'reply_markup' => array(
-        'keyboard' => array(array('💠 Help 💠'),array("📢 Send To All 📢",'🔅Settings🔅'),array('❇️ Members ❇️','🚫 Blocked Users 🚫'),array"✴️ Version ✴️"))
+        'keyboard' => array(array('💠 Help 💠'),array('📢 Send To All 📢','❇️ Members ❇️','❌ Blocked Users',"🔅Settings🔅")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -561,19 +561,20 @@ $pmembersid= explode("\n",$txxt);
 
 }
 if($chat_id==$admin){
-  apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>  "
-  سلام👋
-🌹به بخش مدیریت ربات پیام رسان خود خوش آمدید🌹
+  apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>  'سلام👋 
+_کاربر گرامی , به ربات_ PM Resan _خوش آمدید._
 
-⚠️نکات  لازم :
-➖برای پاسخ به پیام،روی آن پیام ریپلی کرده و ارسال کنید
-➖نیازی به افزودن ربات در گروهی ندارید.
-➖پیام های چند رسانه ای هم  پشتیبانی میشود(هم ارسالی و دریافتی)
-➖ربات بدون تبلیغات میباشد.
-➖هرگونه خطا,غلط املایی و یا نظرات و پیشنهادات خود را از طریق ربات زیر برای ما ارسال کنید.
-@PMresan_Admin_Bot
+✅ `برای ساخت ربات پیام رسان خود توکن دریافتی از`  [Botfather](http://telegram.me/botfather)  `را ارسال کنید`
+ ⚠️توجه : 
+*There are Not Ads in this BOT* 
+_در این ربات هیچگونه تبلیغاتی وجود ندارد._
+➖➖➖➖➖➖➖➖➖➖
+⭕️`برای ارتباط با ادمین به ربات زیر مراجعه کنید`
 
-✅برای آشنایی با نحوه مدیریت ربات روی دکمه Help کلیک کنید "
+[Click](http://telegram.me/PMresan_Admin_bot)
+
+
+🤖 @PMResansazBot'
 ,"parse_mode"=>"MARKDOWN", 'reply_markup' => array(
         'keyboard' => array(array('💠 Help 💠'),array("📢 Send To All 📢",'🔅Settings🔅'),array('❇️ Members ❇️','🚫 Blocked Users 🚫'),array("✴️ Version ✴️"))
         'one_time_keyboard' => true,
@@ -656,32 +657,6 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
         'selective' => true,
         'resize_keyboard' => true)));
     		
-    		
-}else if ($text == "✴️ Version ✴️" ) {
-        apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>
-			"🔥 *PM Resan Bot* _v1.1_ 🔥 
-
-` Developement By ` [ReZa](http://telegram.me/Hextor_Admin) `Based On`  *PHP*
-*===============*
-✅ _Admins_ ✅
-🛠[ReZa](http://telegram.me/Hextor_Admin) *[Developer]*
-*===============*
-💥 _Special thanks to_ 💥
-🔹[Javad](http://telegram.me/jan_123)
-🔹[Ashkan](http://telegram.me/digitalboy)
-🔹[Vahid](http://telegram.me/Yavari_VaHiD)
-🔹[Amir](http://telegram.me/Amir_h)
-
-*===============*
-🏅_Our channels_🏅
-📡 [PM Resan Bot](http://telegram.me/HEXTOR_CH) *[persian]*
-*===============*
-🎗_Our WebSites_🎗
-⭐️ [Hextor](http://Hextor.ir)
-⭐️ [DN4](http://DN4.ir)
-*===============*
-🔱`and Thanks to All My Freinds for this BOT` 🔱","parse_mode" =>"MARKDOWN",		
-
     }else if ($text == "💠 Help 💠" && $chat_id==$admin) {
       
     		apiRequest("sendMessage", array('chat_id' => $admin, "text" => "⭕️`لیست دستور های موجود :`
