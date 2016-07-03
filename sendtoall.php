@@ -389,7 +389,7 @@ else{
 }
 
 
-define('WEBHOOK_URL', 'https://url=https://test-pvresaan.rhcloud.com/Luncher.php/');
+define('WEBHOOK_URL', 'https://test-pvresaan.rhcloud.com/Luncher.php/');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
