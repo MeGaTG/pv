@@ -137,8 +137,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
 Get Out Of Here Idiot??
 --------------------------------
-ÔãÇ ÏÑ áíÓÊ ÓíÇå ÞÑÇÑ ÏÇÑíÏ ??
-áØÝÇ íÇã äÏåíÏ??" ,"parse_mode" =>"HTML"));	
+Ø´Ù…Ø§ Ø¯Ø± Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±ÙŠØ¯ ??
+Ù„Ø·ÙØ§ Ù¾ÙŠØ§Ù… Ù†Ø¯Ù‡ÙŠØ¯??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -159,7 +159,7 @@ Get Out Of Here Idiot??
     else{
         apiRequest("sendphoto", array('chat_id' => $rpto, "photo" => $substtr));
     }
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "??íÇã ÔãÇ ÇÑÓÇá ÔÏ. " ,"parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "??Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯. " ,"parse_mode" =>"HTML"));
     
 }  else if ($chat_id == $admin && $booleans[0] == "true") {
     
@@ -187,7 +187,7 @@ Get Out Of Here Idiot??
 			
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? íÇã ÔãÇ Èå  ".$memcout." ãÎÇØÈ ÇÑÓÇá ÔÏ.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø¨Ù‡  ".$memcout." Ù…Ø®Ø§Ø·Ø¨ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯.
 .","parse_mode" =>"HTML",'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
@@ -213,8 +213,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
 Get Out Of Here Idiot??
 --------------------------------
-ÔãÇ ÏÑ áíÓÊ ÓíÇå ÞÑÇÑ ÏÇÑíÏ ??
-áØÝÇ íÇã äÏåíÏ??" ,"parse_mode" =>"HTML"));	
+Ø´Ù…Ø§ Ø¯Ø± Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±ÙŠØ¯ ??
+Ù„Ø·ÙØ§ Ù¾ÙŠØ§Ù… Ù†Ø¯Ù‡ÙŠØ¯??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -229,7 +229,7 @@ Get Out Of Here Idiot??
     else{
         apiRequest("sendvideo", array('chat_id' => $rpto, "video" => $video));
     }
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"??íÇã ÔãÇ ÇÑÓÇá ÔÏ. ","parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"??Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯. ","parse_mode" =>"HTML"));
     
 }
 else if ($chat_id == $admin && $booleans[0] == "true") {
@@ -247,7 +247,7 @@ else if ($chat_id == $admin && $booleans[0] == "true") {
     }
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? íÇã ÔãÇ Èå  ".$memcout." ãÎÇØÈ ÇÑÓÇá ÔÏ.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø¨Ù‡  ".$memcout." Ù…Ø®Ø§Ø·Ø¨ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯.
 .","parse_mode" =>"HTML",'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
@@ -273,8 +273,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
 Get Out Of Here Idiot??
 --------------------------------
-ÔãÇ ÏÑ áíÓÊ ÓíÇå ÞÑÇÑ ÏÇÑíÏ ??
-áØÝÇ íÇã äÏåíÏ??" ,"parse_mode" =>"HTML"));	
+Ø´Ù…Ø§ Ø¯Ø± Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±ÙŠØ¯ ??
+Ù„Ø·ÙØ§ Ù¾ÙŠØ§Ù… Ù†Ø¯Ù‡ÙŠØ¯??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -282,7 +282,7 @@ Get Out Of Here Idiot??
    $sticker = $message['sticker']['file_id'];
    
     apiRequest("sendsticker", array('chat_id' => $rpto, "sticker" => $sticker));
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"??íÇã ÔãÇ ÇÑÓÇá ÔÏ. " ,"parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"??Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯. " ,"parse_mode" =>"HTML"));
     
 }
 
@@ -299,7 +299,7 @@ Get Out Of Here Idiot??
 			
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? íÇã ÔãÇ Èå  ".$memcout." ãÎÇØÈ ÇÑÓÇá ÔÏ.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø¨Ù‡  ".$memcout." Ù…Ø®Ø§Ø·Ø¨ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯.
 .","parse_mode" =>"HTML",'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
@@ -328,8 +328,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
 Get Out Of Here Idiot??
 --------------------------------
-ÔãÇ ÏÑ áíÓÊ ÓíÇå ÞÑÇÑ ÏÇÑíÏ ??
-áØÝÇ íÇã äÏåíÏ??" ,"parse_mode" =>"HTML"));	
+Ø´Ù…Ø§ Ø¯Ø± Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±ÙŠØ¯ ??
+Ù„Ø·ÙØ§ Ù¾ÙŠØ§Ù… Ù†Ø¯Ù‡ÙŠØ¯??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -344,7 +344,7 @@ Get Out Of Here Idiot??
     else{
         apiRequest("sendDocument", array('chat_id' => $rpto, "document" => $video));
     }
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "??íÇã ÔãÇ ÇÑÓÇá ÔÏ. " ,"parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "??Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯. " ,"parse_mode" =>"HTML"));
     
 }
  else if ($chat_id == $admin && $booleans[0] == "true") {
@@ -359,7 +359,7 @@ Get Out Of Here Idiot??
 			
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? íÇã ÔãÇ Èå  ".$memcout." ãÎÇØÈ ÇÑÓÇá ÔÏ.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø¨Ù‡  ".$memcout." Ù…Ø®Ø§Ø·Ø¨ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯.
 .","parse_mode" =>"HTML",'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
@@ -385,8 +385,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
 Get Out Of Here Idiot??
 --------------------------------
-ÔãÇ ÏÑ áíÓÊ ÓíÇå ÞÑÇÑ ÏÇÑíÏ ??
-áØÝÇ íÇã äÏåíÏ??" ,"parse_mode" =>"HTML"));	
+Ø´Ù…Ø§ Ø¯Ø± Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±ÙŠØ¯ ??
+Ù„Ø·ÙØ§ Ù¾ÙŠØ§Ù… Ù†Ø¯Ù‡ÙŠØ¯??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -401,7 +401,7 @@ Get Out Of Here Idiot??
     else{
         apiRequest("sendVoice", array('chat_id' => $rpto, "voice" => $video));
     }
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"??íÇã ÔãÇ ÇÑÓÇá ÔÏ. ","parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"??Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯. ","parse_mode" =>"HTML"));
     
 }
  else if ($chat_id == $admin && $booleans[0] == "true") {
@@ -413,7 +413,7 @@ Get Out Of Here Idiot??
         apiRequest("sendVoice", array('chat_id' => $membersidd[$y], "voice" => $video));
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? íÇã ÔãÇ Èå  ".$memcout." ãÎÇØÈ ÇÑÓÇá ÔÏ.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø¨Ù‡  ".$memcout." Ù…Ø®Ø§Ø·Ø¨ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯.
 .","parse_mode" =>"HTML",'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
@@ -439,8 +439,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
 Get Out Of Here Idiot??
 --------------------------------
-ÔãÇ ÏÑ áíÓÊ ÓíÇå ÞÑÇÑ ÏÇÑíÏ ??
-áØÝÇ íÇã äÏåíÏ??" ,"parse_mode" =>"HTML"));	
+Ø´Ù…Ø§ Ø¯Ø± Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±ÙŠØ¯ ??
+Ù„Ø·ÙØ§ Ù¾ÙŠØ§Ù… Ù†Ø¯Ù‡ÙŠØ¯??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -455,7 +455,7 @@ Get Out Of Here Idiot??
     else{
         apiRequest("sendaudio", array('chat_id' => $rpto, "audio" => $video));
     }
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "??íÇã ÔãÇ ÇÑÓÇá ÔÏ. " ,"parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "??Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯. " ,"parse_mode" =>"HTML"));
     
 }
  else if ($chat_id == $admin && $booleans[0] == "true") {
@@ -468,7 +468,7 @@ Get Out Of Here Idiot??
 
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? íÇã ÔãÇ Èå  ".$memcout." ãÎÇØÈ ÇÑÓÇá ÔÏ.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø¨Ù‡  ".$memcout." Ù…Ø®Ø§Ø·Ø¨ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯.
 .","parse_mode" =>"HTML",'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
@@ -494,8 +494,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
 Get Out Of Here Idiot??
 --------------------------------
-ÔãÇ ÏÑ áíÓÊ ÓíÇå ÞÑÇÑ ÏÇÑíÏ ??
-áØÝÇ íÇã äÏåíÏ??" ,"parse_mode" =>"HTML"));	
+Ø´Ù…Ø§ Ø¯Ø± Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±ÙŠØ¯ ??
+Ù„Ø·ÙØ§ Ù¾ÙŠØ§Ù… Ù†Ø¯Ù‡ÙŠØ¯??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -509,7 +509,7 @@ Get Out Of Here Idiot??
     
     apiRequest("sendcontact", array('chat_id' => $rpto, "phone_number" => $phone,"Last_name" =>$last,"first_name"=> $first));
     
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"??íÇã ÔãÇ ÇÑÓÇá ÔÏ. ","parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"??Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯. ","parse_mode" =>"HTML"));
     
 }
 else if ($chat_id == $admin && $booleans[0] == "true") {
@@ -525,7 +525,7 @@ else if ($chat_id == $admin && $booleans[0] == "true") {
 
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? íÇã ÔãÇ Èå  ".$memcout." ãÎÇØÈ ÇÑÓÇá ÔÏ.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø¨Ù‡  ".$memcout." Ù…Ø®Ø§Ø·Ø¨ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯.
 .","parse_mode" =>"HTML",'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
@@ -562,18 +562,18 @@ $pmembersid= explode("\n",$txxt);
 }
 if($chat_id==$admin){
   apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>
-  'ÓáÇã??
-??Èå ÈÎÔ ãÏíÑíÊ ÑÈÇÊ íÇã ÑÓÇä ÎæÏ ÎæÔ ÂãÏíÏ??
+  'Ø³Ù„Ø§Ù…??
+??Ø¨Ù‡ Ø¨Ø®Ø´ Ù…Ø¯ÙŠØ±ÙŠØª Ø±Ø¨Ø§Øª Ù¾ÙŠØ§Ù… Ø±Ø³Ø§Ù† Ø®ÙˆØ¯ Ø®ÙˆØ´ Ø¢Ù…Ø¯ÙŠØ¯??
 
-??ä˜ÇÊ  áÇÒã :
-?ÈÑÇí ÇÓÎ Èå íÇã¡Ñæí Âä íÇã Ñíáí ˜ÑÏå æ ÇÑÓÇá ˜äíÏ
-?äíÇÒí Èå ÇÝÒæÏä ÑÈÇÊ ÏÑ Ñæåí äÏÇÑíÏ.
-?íÇã åÇí äÏ ÑÓÇäå Çí åã  ÔÊíÈÇäí ãíÔæÏ(åã ÇÑÓÇáí æ ÏÑíÇÝÊí)
-?ÑÈÇÊ ÈÏæä ÊÈáíÛÇÊ ãíÈÇÔÏ.
-?åÑæäå ÎØÇ,ÛáØ ÇãáÇíí æ íÇ äÙÑÇÊ æ íÔäåÇÏÇÊ ÎæÏ ÑÇ ÇÒ ØÑíÞ ÑÈÇÊ ÒíÑ ÈÑÇí ãÇ ÇÑÓÇá ˜äíÏ.
+??Ù†Ú©Ø§Øª  Ù„Ø§Ø²Ù… :
+?Ø¨Ø±Ø§ÙŠ Ù¾Ø§Ø³Ø® Ø¨Ù‡ Ù¾ÙŠØ§Ù…ØŒØ±ÙˆÙŠ Ø¢Ù† Ù¾ÙŠØ§Ù… Ø±ÙŠÙ¾Ù„ÙŠ Ú©Ø±Ø¯Ù‡ Ùˆ Ø§Ø±Ø³Ø§Ù„ Ú©Ù†ÙŠØ¯
+?Ù†ÙŠØ§Ø²ÙŠ Ø¨Ù‡ Ø§ÙØ²ÙˆØ¯Ù† Ø±Ø¨Ø§Øª Ø¯Ø± Ú¯Ø±ÙˆÙ‡ÙŠ Ù†Ø¯Ø§Ø±ÙŠØ¯.
+?Ù¾ÙŠØ§Ù… Ù‡Ø§ÙŠ Ú†Ù†Ø¯ Ø±Ø³Ø§Ù†Ù‡ Ø§ÙŠ Ù‡Ù…  Ù¾Ø´ØªÙŠØ¨Ø§Ù†ÙŠ Ù…ÙŠØ´ÙˆØ¯(Ù‡Ù… Ø§Ø±Ø³Ø§Ù„ÙŠ Ùˆ Ø¯Ø±ÙŠØ§ÙØªÙŠ)
+?Ø±Ø¨Ø§Øª Ø¨Ø¯ÙˆÙ† ØªØ¨Ù„ÙŠØºØ§Øª Ù…ÙŠØ¨Ø§Ø´Ø¯.
+?Ù‡Ø±Ú¯ÙˆÙ†Ù‡ Ø®Ø·Ø§,ØºÙ„Ø· Ø§Ù…Ù„Ø§ÙŠÙŠ Ùˆ ÙŠØ§ Ù†Ø¸Ø±Ø§Øª Ùˆ Ù¾ÙŠØ´Ù†Ù‡Ø§Ø¯Ø§Øª Ø®ÙˆØ¯ Ø±Ø§ Ø§Ø² Ø·Ø±ÙŠÙ‚ Ø±Ø¨Ø§Øª Ø²ÙŠØ± Ø¨Ø±Ø§ÙŠ Ù…Ø§ Ø§Ø±Ø³Ø§Ù„ Ú©Ù†ÙŠØ¯.
 @PMresan_Admin_Bot
 
-?ÈÑÇí ÂÔäÇíí ÈÇ äÍæå ãÏíÑíÊ ÑÈÇÊ Ñæí Ï˜ãå Help ˜áí˜ ˜äíÏ'
+?Ø¨Ø±Ø§ÙŠ Ø¢Ø´Ù†Ø§ÙŠÙŠ Ø¨Ø§ Ù†Ø­ÙˆÙ‡ Ù…Ø¯ÙŠØ±ÙŠØª Ø±Ø¨Ø§Øª Ø±ÙˆÙŠ Ø¯Ú©Ù…Ù‡ Help Ú©Ù„ÙŠÚ© Ú©Ù†ÙŠØ¯'
 ,"parse_mode"=>"MARKDOWN", 'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
@@ -589,11 +589,11 @@ if($chat_id==$admin){
 
 -!-@-#-$"."
 ".$pmembersiddd[1]);
-apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"??íÇã ÎæÔ ÂãÏ æíí Èå ??
+apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"??Ù¾ÙŠØ§Ù… Ø®ÙˆØ´ Ø¢Ù…Ø¯ Ú¯ÙˆÙŠÙŠ Ø¨Ù‡ ??
 
 ".$starttext."
 
-??ÊÛííÑ íÇÝÊ"));
+??ØªØºÙŠÙŠØ± ÙŠØ§ÙØª"));
     
     
     
@@ -607,11 +607,11 @@ apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"??íÇã ÎæÔ 
 
 -!-@-#-$"."
 ".$starttext);
-apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"??íÇã íÔ ÝÑÖ ÔãÇ Èå ??
+apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"??Ù¾ÙŠØ§Ù… Ù¾ÙŠØ´ ÙØ±Ø¶ Ø´Ù…Ø§ Ø¨Ù‡ ??
 
 ".$starttext."
 
-??ÊÛííÑ íÇÝÊ"));
+??ØªØºÙŠÙŠØ± ÙŠØ§ÙØª"));
     
     
     
@@ -633,8 +633,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>$pmembersiddd[1]
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
 Get Out Of Here Idiot??
 --------------------------------
-ÔãÇ ÏÑ áíÓÊ ÓíÇå ÞÑÇÑ ÏÇÑíÏ ??
-áØÝÇ íÇã äÏåíÏ??" ,"parse_mode" =>"HTML"));	
+Ø´Ù…Ø§ Ø¯Ø± Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±ÙŠØ¯ ??
+Ù„Ø·ÙØ§ Ù¾ÙŠØ§Ù… Ù†Ø¯Ù‡ÙŠØ¯??" ,"parse_mode" =>"HTML"));	
 }
 else{
   $textfa =str_replace("thisisnarimanfrombeatbotteam","??",$text);;
@@ -649,15 +649,15 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
     		
     		
     		 apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => '
-í˜í ÇÒ Òíäå åÇ ÑÇ ÇäÊÎÇÈ ˜äíÏ
-—---------------------------------------------
+ÙŠÚ©ÙŠ Ø§Ø² Ú¯Ø²ÙŠÙ†Ù‡ Ù‡Ø§ Ø±Ø§ Ø§Ù†ØªØ®Ø§Ø¨ Ú©Ù†ÙŠØ¯
+â€”---------------------------------------------
 ???? Clean Members
-????Ç˜ ˜ÑÏä áíÓÊ ãÎÇØÈíä
+????Ù¾Ø§Ú© Ú©Ø±Ø¯Ù† Ù„ÙŠØ³Øª Ù…Ø®Ø§Ø·Ø¨ÙŠÙ†
 
 ????Clean Block List
-????Ç˜ ˜ÑÏä áíÓÊ ÓíÇå
+????Ù¾Ø§Ú© Ú©Ø±Ø¯Ù† Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡
 
-ÏÑ ÕæÑÊ ÇäÕÑÇÝ Back ÑÇ ÈÒäíÏ
+Ø¯Ø± ØµÙˆØ±Øª Ø§Ù†ØµØ±Ø§Ù Back Ø±Ø§ Ø¨Ø²Ù†ÙŠØ¯
 .', 'reply_markup' => array(
         'keyboard' => array(array('? Clean Members ','? Clean Block List '),array('?? Back')),
         'one_time_keyboard' => true,
@@ -669,18 +669,18 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
     }else if ($text == "?? Help" && $chat_id==$admin) {
       
     		apiRequest("sendMessage", array('chat_id' => $admin, "text" => "text" =>
-  'ÓáÇã??
-??Èå ÈÎÔ ãÏíÑíÊ ÑÈÇÊ íÇã ÑÓÇä ÎæÏ ÎæÔ ÂãÏíÏ??
+  'Ø³Ù„Ø§Ù…??
+??Ø¨Ù‡ Ø¨Ø®Ø´ Ù…Ø¯ÙŠØ±ÙŠØª Ø±Ø¨Ø§Øª Ù¾ÙŠØ§Ù… Ø±Ø³Ø§Ù† Ø®ÙˆØ¯ Ø®ÙˆØ´ Ø¢Ù…Ø¯ÙŠØ¯??
 
-??ä˜ÇÊ  áÇÒã :
-?ÈÑÇí ÇÓÎ Èå íÇã¡Ñæí Âä íÇã Ñíáí ˜ÑÏå æ ÇÑÓÇá ˜äíÏ
-?äíÇÒí Èå ÇÝÒæÏä ÑÈÇÊ ÏÑ Ñæåí äÏÇÑíÏ.
-?íÇã åÇí äÏ ÑÓÇäå Çí åã  ÔÊíÈÇäí ãíÔæÏ(åã ÇÑÓÇáí æ ÏÑíÇÝÊí)
-?ÑÈÇÊ ÈÏæä ÊÈáíÛÇÊ ãíÈÇÔÏ.
-?åÑæäå ÎØÇ,ÛáØ ÇãáÇíí æ íÇ äÙÑÇÊ æ íÔäåÇÏÇÊ ÎæÏ ÑÇ ÇÒ ØÑíÞ ÑÈÇÊ ÒíÑ ÈÑÇí ãÇ ÇÑÓÇá ˜äíÏ.
+??Ù†Ú©Ø§Øª  Ù„Ø§Ø²Ù… :
+?Ø¨Ø±Ø§ÙŠ Ù¾Ø§Ø³Ø® Ø¨Ù‡ Ù¾ÙŠØ§Ù…ØŒØ±ÙˆÙŠ Ø¢Ù† Ù¾ÙŠØ§Ù… Ø±ÙŠÙ¾Ù„ÙŠ Ú©Ø±Ø¯Ù‡ Ùˆ Ø§Ø±Ø³Ø§Ù„ Ú©Ù†ÙŠØ¯
+?Ù†ÙŠØ§Ø²ÙŠ Ø¨Ù‡ Ø§ÙØ²ÙˆØ¯Ù† Ø±Ø¨Ø§Øª Ø¯Ø± Ú¯Ø±ÙˆÙ‡ÙŠ Ù†Ø¯Ø§Ø±ÙŠØ¯.
+?Ù¾ÙŠØ§Ù… Ù‡Ø§ÙŠ Ú†Ù†Ø¯ Ø±Ø³Ø§Ù†Ù‡ Ø§ÙŠ Ù‡Ù…  Ù¾Ø´ØªÙŠØ¨Ø§Ù†ÙŠ Ù…ÙŠØ´ÙˆØ¯(Ù‡Ù… Ø§Ø±Ø³Ø§Ù„ÙŠ Ùˆ Ø¯Ø±ÙŠØ§ÙØªÙŠ)
+?Ø±Ø¨Ø§Øª Ø¨Ø¯ÙˆÙ† ØªØ¨Ù„ÙŠØºØ§Øª Ù…ÙŠØ¨Ø§Ø´Ø¯.
+?Ù‡Ø±Ú¯ÙˆÙ†Ù‡ Ø®Ø·Ø§,ØºÙ„Ø· Ø§Ù…Ù„Ø§ÙŠÙŠ Ùˆ ÙŠØ§ Ù†Ø¸Ø±Ø§Øª Ùˆ Ù¾ÙŠØ´Ù†Ù‡Ø§Ø¯Ø§Øª Ø®ÙˆØ¯ Ø±Ø§ Ø§Ø² Ø·Ø±ÙŠÙ‚ Ø±Ø¨Ø§Øª Ø²ÙŠØ± Ø¨Ø±Ø§ÙŠ Ù…Ø§ Ø§Ø±Ø³Ø§Ù„ Ú©Ù†ÙŠØ¯.
 @PMresan_Admin_Bot
 
-?ÈÑÇí ÂÔäÇíí ÈÇ äÍæå ãÏíÑíÊ ÑÈÇÊ Ñæí Ï˜ãå Help ˜áí˜ ˜äíÏ'
+?Ø¨Ø±Ø§ÙŠ Ø¢Ø´Ù†Ø§ÙŠÙŠ Ø¨Ø§ Ù†Ø­ÙˆÙ‡ Ù…Ø¯ÙŠØ±ÙŠØª Ø±Ø¨Ø§Øª Ø±ÙˆÙŠ Ø¯Ú©Ù…Ù‡ Help Ú©Ù„ÙŠÚ© Ú©Ù†ÙŠØ¯'
 ,"parse_mode" =>"MARKDOWN",'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
@@ -693,7 +693,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
     		$txxt = file_get_contents('pmembers.txt');
         $pmembersid= explode("\n",$txxt);
     		file_put_contents('pmembers.txt',"");
-    		apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => 'áíÓÊ ãÎÇØÈíä Ç˜ ÔÏ ??
+    		apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => 'Ù„ÙŠØ³Øª Ù…Ø®Ø§Ø·Ø¨ÙŠÙ† Ù¾Ø§Ú© Ø´Ø¯ ??
 .', 'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
@@ -706,14 +706,14 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
     		$txxt = file_get_contents('banlist.txt');
         $pmembersid= explode("\n",$txxt);
     		file_put_contents('banlist.txt',"");
-    		apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => 'áíÓÊ ÓíÇå Ç˜ ÔÏ ? ', 'reply_markup' => array(
+    		apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => 'Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù¾Ø§Ú© Ø´Ø¯ ? ', 'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
     }
     else if ($text == "?? Back" && $chat_id==$admin) {
-    		apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'ÈÇÒÔÊ Èå ãäæí ÇÕáí:
+    		apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'Ø¨Ø§Ø²Ú¯Ø´Øª Ø¨Ù‡ Ù…Ù†ÙˆÙŠ Ø§ØµÙ„ÙŠ:
 ', 'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
@@ -724,7 +724,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
         
     }
     else if ($text =="?? Send To All"  && $chat_id == $admin && $booleans[0]=="false") {
-          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? íÇã ÎæÏ ÑÇ ÇÑÓÇá ˜äíÏ ." ,"parse_mode" =>"HTML"));
+          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? Ù¾ÙŠØ§Ù… Ø®ÙˆØ¯ Ø±Ø§ Ø§Ø±Ø³Ø§Ù„ Ú©Ù†ÙŠØ¯ ." ,"parse_mode" =>"HTML"));
       $boolean = file_get_contents('booleans.txt');
 		  $booleans= explode("\n",$boolean);
 	  	$addd = file_get_contents('banlist.txt');
@@ -740,7 +740,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 			apiRequest("sendMessage", array('chat_id' => $membersidd[$y], "text" => $texttoall,"parse_mode" =>"HTML"));
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? íÇã ÔãÇ Èå  ".$memcout." ãÎÇØÈ ÇÑÓÇá ÔÏ.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø¨Ù‡  ".$memcout." Ù…Ø®Ø§Ø·Ø¨ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯.
 .","parse_mode" =>"HTML",'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
@@ -752,7 +752,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 		$txtt = file_get_contents('pmembers.txt');
 		$membersidd= explode("\n",$txtt);
 		$mmemcount = count($membersidd) -1;
-		 apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode" =>"HTML", "text" => "? ÊÚÏÇÏ ˜á ãÎÇØÈÇä : ".$mmemcount,'reply_markup' => array(
+		 apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode" =>"HTML", "text" => "? ØªØ¹Ø¯Ø§Ø¯ Ú©Ù„ Ù…Ø®Ø§Ø·Ø¨Ø§Ù† : ".$mmemcount,'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
@@ -763,7 +763,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 		$txtt = file_get_contents('banlist.txt');
 		$membersidd= explode("\n",$txtt);
 		$mmemcount = count($membersidd) -1;
-		 apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode" =>"HTML", "text" => "?? ÊÚÏÇÏ ˜á ÇÝÑÇÏí ˜å ÏÑ áíÓÊ ÓíÇå ÞÑÇÑ ÏÇÑäÏ : ".$mmemcount,'reply_markup' => array(
+		 apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode" =>"HTML", "text" => "?? ØªØ¹Ø¯Ø§Ø¯ Ú©Ù„ Ø§ÙØ±Ø§Ø¯ÙŠ Ú©Ù‡ Ø¯Ø± Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù‚Ø±Ø§Ø± Ø¯Ø§Ø±Ù†Ø¯ : ".$mmemcount,'reply_markup' => array(
         'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
@@ -775,7 +775,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
     	if($text != "/ban" && $text != "/unban")
     	{
 	apiRequest("sendMessage", array('chat_id' => $rpto, "text" => $text ,"parse_mode" =>"HTML"));
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "??íÇã ÔãÇ ÇÑÓÇá ÔÏ. " ,"parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "??Ù¾ÙŠØ§Ù… Ø´Ù…Ø§ Ø§Ø±Ø³Ø§Ù„ Ø´Ø¯. " ,"parse_mode" =>"HTML"));
     	}
     	else
     	{
@@ -791,11 +791,11 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
     	file_put_contents('banlist.txt',$addd);
     	apiRequest("sendMessage", array('chat_id' => $rpto, "text" => "<b>You Are Banned??,</b>
 -----------------
-ÔãÇ ÏÑ áíÓÊ ÓíÇå ÞÑÇÑ ÑÝÊíÏ??." ,"parse_mode" =>"HTML"));
+Ø´Ù…Ø§ Ø¯Ø± Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù‚Ø±Ø§Ø± Ú¯Ø±ÙØªÙŠØ¯??." ,"parse_mode" =>"HTML"));
 }
 		apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "Banned
 ???????????
-Èå áíÓÊ ÓíÇå ÇÝÒæÏå ÔÏ." ,"parse_mode" =>"HTML"));
+Ø¨Ù‡ Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ø§ÙØ²ÙˆØ¯Ù‡ Ø´Ø¯." ,"parse_mode" =>"HTML"));
     		}
     	if($text == "/unban"){
     	$txttt = file_get_contents('banlist.txt');
@@ -816,10 +816,10 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 }
 		apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "UnBanned
 ------------------
-ÇÒ áíÓÊ ÓíÇå Ç˜ ÔÏ." ,"parse_mode" =>"HTML"));
+Ø§Ø² Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù¾Ø§Ú© Ø´Ø¯." ,"parse_mode" =>"HTML"));
 		apiRequest("sendMessage", array('chat_id' => $rpto, "text" => "<b>You Have Been UnBanned?,</b>
 -----------------
-ÔãÇ ÇÒ áíÓÊ ÓíÇå Ç˜ ÔÏíÏ ?." ,"parse_mode" =>"HTML"));
+Ø´Ù…Ø§ Ø§Ø² Ù„ÙŠØ³Øª Ø³ÙŠØ§Ù‡ Ù¾Ø§Ú© Ø´Ø¯ÙŠØ¯ ?." ,"parse_mode" =>"HTML"));
     		}
     	}
 	}
