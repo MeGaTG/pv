@@ -354,7 +354,7 @@ $output = curl_exec($ch);
 @Hextor_Admin
 
 🌷کانال ما
-@Hextor_Ch)"));
+@Hextor_Ch )"));
       }
 
     }
